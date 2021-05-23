@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+#sidenav {
+    height: 100vh;
+    width: 4.5rem;
+}
+
+#logo {
+    max-width: 40px;
+    object-fit: contain;
+}
+
+#profile {
+    max-width: 24px;
+    object-fit: contain;
+}
+
+.align {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+#title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+#form-container{
+    width: 50vw;
+}
+
+#badge {
+    width: 120px;
+    font-size: 14px;
+    background-color: #0d6efd;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#span{
+    font: 900;
+    color: white;
+    background-color: #555;
+    font-size: 14px;
+    padding: 2px 4px;
+    border-radius: 6px;
+}
+
+h5{
+    color: #555;
+}
+
+#submit-group {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit {
+    width: 10em;
+    padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+    #form-container {
+        width: 70vw;
+    }
+}
